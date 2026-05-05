@@ -13,6 +13,8 @@
         <module>AI-code-LangChain-iso</module>
         <module>AI-code-LangChain-tools</module>
         <module>AI-code-LangChain4j-sysPrompt</module>
+        <module>AI-code-springAI-ollama</module>
+        <module>AI-code-springAI-demo</module>
     </modules>
 
     <properties>

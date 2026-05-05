@@ -1,0 +1,6 @@
+spring:
+  ai:
+    ollama:
+      chat:
+        model: qwen3-vl:2b
+      base-url: http://localhost:11434
