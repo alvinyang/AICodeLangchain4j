@@ -15,6 +15,7 @@
         <module>AI-code-LangChain4j-sysPrompt</module>
         <module>AI-code-springAI-ollama</module>
         <module>AI-code-springAI-demo</module>
+        <module>AI-code-springAI-SSE</module>
     </modules>
 
     <properties>
