@@ -16,6 +16,7 @@
         <module>AI-code-springAI-ollama</module>
         <module>AI-code-springAI-demo</module>
         <module>AI-code-springAI-SSE</module>
+        <module>AI-code-springAI-promptTemplate</module>
     </modules>
 
     <properties>
