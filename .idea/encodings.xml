@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/AI-code-LangChain4j-sysPrompt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AI-code-springAI-SSE/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AI-code-springAI-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AI-code-springAI-memory-mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AI-code-springAI-memory-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AI-code-springAI-memory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AI-code-springAI-ollama/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AI-code-springAI-promptTemplate/src/main/java" charset="UTF-8" />

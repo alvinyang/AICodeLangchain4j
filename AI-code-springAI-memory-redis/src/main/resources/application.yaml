@@ -1,0 +1,12 @@
+spring:
+  ai:
+    dashscope:
+      chat:
+        options:
+          model: qwen3-max # 配置聊天的模型名称
+      api-key: sk-0912f51d2b1a4e47af5676769f7fa12d # 配置百炼平台的api-key
+  redis:
+    port: 63793 # reids的端口
+    host: localhost # redis的地址
+    # user: 如果设置了对应的用户名那么这里就要填写对应的用户名
+    # password: 如有有密码就需要进行配置

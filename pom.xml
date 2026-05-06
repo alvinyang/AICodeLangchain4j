@@ -18,6 +18,8 @@
         <module>AI-code-springAI-SSE</module>
         <module>AI-code-springAI-promptTemplate</module>
         <module>AI-code-springAI-memory</module>
+        <module>AI-code-springAI-memory-redis</module>
+        <module>AI-code-springAI-memory-mysql</module>
     </modules>
 
     <properties>
