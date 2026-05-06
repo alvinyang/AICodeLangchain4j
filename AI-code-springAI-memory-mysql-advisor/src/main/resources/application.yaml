@@ -1,0 +1,19 @@
+spring:
+  ai:
+    dashscope:
+      chat:
+        options:
+          model: qwen3-max # 配置聊天的模型名称
+      api-key: sk-0912f51d2b1a4e47af5676769f7fa12d # 配置百炼平台的api-key
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always #开启自动初始化表结构
+            platform: mysql #选择使用mysql
+            # schema: 如果想要使用自定义的表结构，可以在这里将自己的sql文件路径配置上去
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver # jdbc驱动
+    url: jdbc:mysql://localhost:3306/ai-code?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true # mysql连接地址
+    username: root # 账号
+    password: 123456 # 密码
