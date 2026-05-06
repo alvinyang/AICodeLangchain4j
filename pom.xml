@@ -17,6 +17,7 @@
         <module>AI-code-springAI-demo</module>
         <module>AI-code-springAI-SSE</module>
         <module>AI-code-springAI-promptTemplate</module>
+        <module>AI-code-springAI-memory</module>
     </modules>
 
     <properties>
