@@ -23,7 +23,7 @@
         <module>AI-code-springAI-memory-mysql-advisor</module>
         <module>AI-code-springAI-memory-mysql-forget</module>
         <module>AI-code-springAI-memory-mysql-pii</module>
-        <module>AI-code-springAI-embedding</module>
+        <module>AI-code-springAI-RAG-embedding</module>
     </modules>
 
     <properties>
