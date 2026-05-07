@@ -1,0 +1,7 @@
+spring:
+  ai:
+    dashscope:
+      api-key: sk-0912f51d2b1a4e47af5676769f7fa12d # 配置百炼平台的api-key
+      embedding:
+        options:
+          model: text-embedding-v4 # 使用指定的embedding模型，百炼千问模型
