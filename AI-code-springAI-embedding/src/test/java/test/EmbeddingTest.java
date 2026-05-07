@@ -22,5 +22,8 @@ public class EmbeddingTest {
         EmbeddingResponse embeddingResponse = dashScopeEmbeddingModel.embedForResponse(List.of(text));
         float[] output = embeddingResponse.getResult().getOutput();
         System.out.println(Arrays.toString(output));
+
+        float[] embed = dashScopeEmbeddingModel.embed(text);
+        System.out.println("单个文本向量化：" + Arrays.toString(embed));
     }
 }
