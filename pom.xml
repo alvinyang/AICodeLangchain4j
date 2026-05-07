@@ -20,6 +20,10 @@
         <module>AI-code-springAI-memory</module>
         <module>AI-code-springAI-memory-redis</module>
         <module>AI-code-springAI-memory-mysql</module>
+        <module>AI-code-springAI-memory-mysql-advisor</module>
+        <module>AI-code-springAI-memory-mysql-forget</module>
+        <module>AI-code-springAI-memory-mysql-pii</module>
+        <module>AI-code-springAI-embedding</module>
     </modules>
 
     <properties>
