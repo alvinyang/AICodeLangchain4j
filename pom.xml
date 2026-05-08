@@ -25,6 +25,7 @@
         <module>AI-code-springAI-memory-mysql-pii</module>
         <module>AI-code-springAI-RAG-embedding</module>
         <module>AI-code-springAI-RAG-milvus</module>
+        <module>AI-code-springAI-RAG-reader</module>
     </modules>
 
     <properties>
