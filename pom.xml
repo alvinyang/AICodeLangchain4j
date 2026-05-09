@@ -28,6 +28,7 @@
         <module>AI-code-springAI-RAG-reader</module>
         <module>AI-code-springAI-RAG-splitter</module>
         <module>AI-code-springAI-RAG-metadata</module>
+        <module>AI-code-springAI-RAG-rewite</module>
     </modules>
 
     <properties>
