@@ -37,6 +37,27 @@ public class ChatClientConfig {
 //                .build();
 //    }
 
+    /**
+     * 如果需要对方法中参数进行指定则需要自己编写JSON的约束文件，如下：
+     * {
+     *   // 1. 整体约束：所有参数打包成一个"对象"
+     *   "type": "object",
+     *   // 2. 定义具体参数（properties = 属性/参数）
+     *   "properties": {
+     *     // 2.1 第一个参数：includeMillisecond（对应Java方法的参数名）
+     *     "includeMillisecond": {
+     *       // 2.1.1 参数类型：boolean（布尔值，只能传 true/false）
+     *       "type": "boolean",
+     *       // 2.1.2 参数说明：告诉大模型这个参数是干嘛的
+     *       "description": "是否包含毫秒，true 是，false 否"
+     *     }
+     *   },
+     *   // 3. 必填参数列表：指定哪些参数必须传
+     *   "required": ["includeMillisecond"]
+     * }
+     *
+     * @return
+     */
     @Bean
     public ChatClient chatClient() {
         Method method = ReflectionUtils.findMethod(CurrentTimeService.class,
@@ -48,6 +69,7 @@ public class ChatClientConfig {
                 .toolDefinition(ToolDefinitions.builder(method)
                         .name("get_current_time")
                         .description("获取当前的系统时间")
+//                        .inputSchema(schema) // 如果需要对方法中参数进行指定则需要自己编写JSON的约束文件
                         .build())
                 // 指定要调用的方法
                 .toolMethod(method)
