@@ -1,0 +1,7 @@
+spring:
+  ai:
+    dashscope:
+      chat:
+        options:
+          model: qwen3-max # 配置聊天的模型名称
+      api-key: sk-0912f51d2b1a4e47af5676769f7fa12d # 配置百炼平台的api-key
