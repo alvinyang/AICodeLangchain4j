@@ -30,6 +30,7 @@
         <module>AI-code-springAI-RAG-metadata</module>
         <module>AI-code-springAI-RAG-rewite</module>
         <module>AI-code-springAI-Tool-Structured</module>
+        <module>AI-code-springAI-Tool-Calling</module>
     </modules>
 
     <properties>
