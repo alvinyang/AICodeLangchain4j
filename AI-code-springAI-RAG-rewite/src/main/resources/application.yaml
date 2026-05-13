@@ -1,7 +1,7 @@
 spring:
   ai:
     dashscope:
-      api-key: sk-0912f51d2b1a4e47af5676769f7fa12d
+      api-key: ${ANTHROPIC_AUTH_TOKEN}
       embedding:
         options:
           model: text-embedding-v4

@@ -2,8 +2,8 @@ langchain4j:
   community:
     dashscope:
       chat-model: # 阻塞调用配置
-        api-key: sk-0912f51d2b1a4e47af5676769f7fa12d
+        api-key: ${ANTHROPIC_AUTH_TOKEN}
         model-name: qwen3-max
       streaming-chat-model: # 流式调用配置
-        api-key: sk-0912f51d2b1a4e47af5676769f7fa12d
+        api-key: ${ANTHROPIC_AUTH_TOKEN}
         model-name: qwen3-max
